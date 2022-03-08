@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+    display: flex;
+    /* display: flex; ichidagi elelmentlarni yonma yon qiladi */
+    justify-content: space-around;
+    /* justify_content: center; ichidagi elementlarni eniga o'rtaga oladi */
+    align-items: centr;
+    flex-wrap: wrap;
+    /* align-item: center; ichidagi elementlarni bo'yiga o'rtaga oladi*/
+    /* diplay: flex; bo'lmasa align-items va justify-content lar ishlamaydi */
+}
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin-left: 5px;
+    
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.text_parent{
+    width: 500px;
+    height: 500px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* center => o'rtasi */
+    /* flex-start => boshiga */
+    /* flex-end => oxiriga */
+
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .panel{
+        width: 300px;
+        height: 450px;
+        background-color: green;
+    }
